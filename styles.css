@@ -1,0 +1,65 @@
+html {
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'Roboto'; /* Name your font family */
+    src: url('../Roboto'); /* Locate the .ttf file within your directory*/
+}
+
+body {
+    background-image: url('../background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom 40% right 70%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    padding: 15px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: 0.4px #3D4E3C;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.index ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.index_elements {
+    font-size: 35px;
+}
+
+.footer_elements,
+.language {
+    font-size: 20px;
+}
+
+.language {
+    margin: 30px;
+}
+
+.middle {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
