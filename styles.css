@@ -63,10 +63,13 @@ a {
 .middle {
     display: flex;
     flex: 1;
+    margin-left: 60px;
+    font-family: Helvetica;
+    font-size: 80px;
     align-items: center;
-    justify-content: center;
 }
 
 #home {
     font-size: 50px;
 }
+
