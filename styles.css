@@ -64,17 +64,6 @@ a {
     justify-content: center;
 }
 
-.footer ul {
-    display: flex;
-    justify-content: left;
-    flex-direction: column;
-    border: 1px, solid white;
-    padding: 15px
-}
-
-.footer {
-    display: flex;
-}
 
 #home {
     font-size: 50px;
