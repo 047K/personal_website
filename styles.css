@@ -20,8 +20,10 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    -webkit-text-stroke: 0.4px #3D4E3C;
+    -webkit-text-stroke: 1.5px #0C0C11;
     paint-order: stroke fill;
+    text-shadow: white 1px 1px 5px;
+    background-image:
 }
 
 ul {
@@ -65,8 +67,6 @@ a {
     justify-content: center;
 }
 
-
 #home {
     font-size: 50px;
-    text-decoration: underline white 2px;
 }
