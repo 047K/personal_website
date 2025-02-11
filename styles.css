@@ -4,11 +4,11 @@ html {
 
 @font-face {
     font-family: 'Roboto'; /* Name your font family */
-    src: url('../Roboto'); /* Locate the .ttf file within your directory*/
+    src: url('roboto.ttf'); /* Locate the .ttf file within your directory*/
 }
 
 body {
-    background-image: url('../background.png');
+    background-image: url('background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom 40% right 70%;
