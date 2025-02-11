@@ -21,6 +21,7 @@ body {
     padding: 0px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     -webkit-text-stroke: 0.4px #3D4E3C;
+    paint-order: stroke fill;
 }
 
 ul {
