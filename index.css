@@ -7,11 +7,6 @@ html {
     src: url('DMSans-VariableFont.ttf'); /* Locate the .ttf file within your directory*/
 }
 
-@font-face {
-    font-family: 'PinyonScript-Regular'; /* Name your font family */
-    src: url('PinyonScript-Regular.ttf'); /* Locate the .ttf file within your directory*/
-}
-
 body {
     min-height: 100dvh;
     margin: 0;
@@ -27,7 +22,6 @@ body {
 
     color: white;
     paint-order: stroke fill;
-    text-shadow: white 1px 1px 5px;
     -webkit-text-stroke: 1px #0C0C11;
     font-family: 'DMSans-VariableFont', Arial, Helvetica, sans-serif;
 }
@@ -72,8 +66,25 @@ a {
     justify-content: center;
     flex-direction: column;
 
-    font-family: "PinyonScript-Regular", serif;
-    font-size: 80px;
+    font-family: "Helvetica", serif;
+    font-size: 70px;
+    color: white;
+}
+
+.desc {
+    font-size: 40px;
+}
+
+.opener {
+    margin-bottom: 5px;
+}
+
+span {
+    color: black;
+    background-color: white;
+    font-size: 45px;
+
+    padding: 5px;
 }
 
 .right {
