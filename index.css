@@ -3,8 +3,13 @@ html {
 }
 
 @font-face {
-    font-family: 'Roboto'; /* Name your font family */
-    src: url('roboto.ttf'); /* Locate the .ttf file within your directory*/
+    font-family: 'DMSans-VariableFont'; /* Name your font family */
+    src: url('DMSans-VariableFont.ttf'); /* Locate the .ttf file within your directory*/
+}
+
+@font-face {
+    font-family: 'PinyonScript-Regular'; /* Name your font family */
+    src: url('PinyonScript-Regular.ttf'); /* Locate the .ttf file within your directory*/
 }
 
 body {
@@ -24,7 +29,7 @@ body {
     paint-order: stroke fill;
     text-shadow: white 1px 1px 5px;
     -webkit-text-stroke: 1px #0C0C11;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'DMSans-VariableFont', Arial, Helvetica, sans-serif;
 }
 
 ul {
@@ -67,8 +72,8 @@ a {
     justify-content: center;
     flex-direction: column;
 
-    font-family: Helvetica;
-    font-size: 80px;
+    font-family: "PinyonScript-Regular", serif;
+    font-size: 90px;
 }
 
 .right {
